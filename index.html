@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!-- Headrer Section Starts Here -->
+    <!-- Header Section Starts Here -->
     <header>
         <nav class="navbar section-content">
             <a href="index.html" class="nav-logo">
@@ -23,17 +23,18 @@
             <ul class="nav-menu">
                 <button id="menu-close-button" class="fa fa-times"></button>
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Reservation</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#reservation" class="nav-link">Reservation</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <button id="menu-open-button" class="fa fa-bars"></button>
         </nav>
     </header>
-    <!-- Headrer Section Ends Here -->
+    <!-- Header Section Ends Here -->
+    
     <main>
         <!-- Hero Section Starts Here -->
         <section class="hero-section">
@@ -46,26 +47,26 @@
                         Make your day great with our special coffee!
                     </h3>
                     <p class="description">
-                        Wlcome to Coffee, your go-to destination for the finest coffee experience. We are passionate
+                        Welcome to Coffee, your go-to destination for the finest coffee experience. We are passionate
                         about crafting the perfect cup of coffee to brighten your day.
                     </p>
                     <div class="buttons">
-                        <a href="#" class="button order-now">Order Now</a>
-                        <a href="#" class="button contact-us">Contact Us</a>
+                        <a href="#menu" class="button order-now">Order Now</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
                     </div>
                 </div>
                 <div class="hero-image-wrapper">
-                    <img src="./images/coffee-hero-section.png" alt="Hero" class="hero-image">
+                    <img src="./images/coffee-hero-section.png" alt="Coffee cup with steam" class="hero-image">
                 </div>
             </div>
         </section>
         <!-- Hero Section Ends Here -->
 
         <!-- About Section Starts Here -->
-        <section class="about-section">
+        <section class="about-section" id="about">
             <div class="section-content">
                 <div class="about-image-wrapper">
-                    <img src="./images/about-image.jpg" alt="" class="about-image">
+                    <img src="./images/about-image.jpg" alt="Coffee shop interior" class="about-image">
                 </div>
                 <div class="about-details">
                     <h2 class="section-title">About Us</h2>
@@ -75,14 +76,15 @@
                         finest brews in a warm and inviting atmosphere.
                     </p>
                     <div class="social-link-list">
-                        <a href="#" class="social-link">
+                        <a href="#" class="social-link" aria-label="Facebook">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="#" class="social-link" aria-label="Instagram">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="#" class="social-link" aria-label="Twitter">
                             <i class="fa-brands fa-x-twitter"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -90,7 +92,7 @@
         <!-- About Section Ends Here -->
 
         <!-- Menu Section Starts Here -->
-        <section class="menu-section">
+        <section class="menu-section" id="menu">
             <h2 class="section-title">Our Menu</h2>
             <div class="section-content">
                 <ul class="menu-list">
@@ -107,8 +109,7 @@
                         <img src="./images/cold-beverages.png" alt="Cold beverages" class="menu-image">
                         <h3 class="name">Cold Beverages</h3>
                         <p class="text">
-                            Enjoy our selection of hot beverages, from classic espresso to creamy lattes and rich
-                            cappuccinos.
+                            Refreshing iced coffees, cold brews, and specialty chilled drinks for warm days.
                         </p>
                     </li>
 
@@ -116,92 +117,80 @@
                         <img src="./images/refreshment.png" alt="Refreshment" class="menu-image">
                         <h3 class="name">Refreshment</h3>
                         <p class="text">
-                            Enjoy our selection of hot beverages, from classic espresso to creamy lattes and rich
-                            cappuccinos.
+                            Light snacks and beverages to rejuvenate your senses throughout the day.
                         </p>
                     </li>
 
                     <li class="menu-item">
-                        <img src="./images/special-combo.png" alt="special-combo" class="menu-image">
-                        <h3 class="name">Special combo</h3>
+                        <img src="./images/special-combo.png" alt="Special combo" class="menu-image">
+                        <h3 class="name">Special Combo</h3>
                         <p class="text">
-                            Enjoy our selection of hot beverages, from classic espresso to creamy lattes and rich
-                            cappuccinos.
+                            Perfect pairings of coffee with delicious treats at special discounted prices.
                         </p>
                     </li>
+                    
                     <li class="menu-item">
                         <img src="./images/desserts.png" alt="Desserts" class="menu-image">
                         <h3 class="name">Desserts</h3>
                         <p class="text">
-                            Enjoy our selection of hot beverages, from classic espresso to creamy lattes and rich
-                            cappuccinos.
+                            Sweet treats and pastries that perfectly complement our coffee selections.
                         </p>
                     </li>
+                    
                     <li class="menu-item">
-                        <img src="./images/burger-frenchfries.png" alt="burger frenchfries" class="menu-image">
-                        <h3 class="name">Burger & frenchfries</h3>
+                        <img src="./images/burger-frenchfries.png" alt="Burger and french fries" class="menu-image">
+                        <h3 class="name">Burger & French Fries</h3>
                         <p class="text">
-                            Enjoy our selection of hot beverages, from classic espresso to creamy lattes and rich
-                            cappuccinos.
+                            Savory snacks and light meals for when you need something more substantial.
                         </p>
                     </li>
                 </ul>
-
             </div>
         </section>
         <!-- Menu Section Ends Here -->
 
         <!-- Testimonials Section Starts Here -->
-        <section class="testimonials-section">
+        <section class="testimonials-section" id="testimonials">
             <h2 class="section-title">Testimonials</h2>
             <div class="section-content">
                 <div class="slider-container swiper">
                     <div class="slider-wrapper">
                         <ul class="testimonials-list swiper-wrapper">
                             <li class="testimonial-item swiper-slide">
-                                <img src="./images/user-1.jpg" alt="User 1" class="user-image">
+                                <img src="./images/user-1.jpg" alt="Israt Jahan" class="user-image">
                                 <h3 class="name">Israt Jahan</h3>
-                                <i class="feedback">
+                                <blockquote class="feedback">
                                     "The coffee here is absolutely amazing! The rich aroma and bold flavors make every
-                                    sip
-                                    a delight. Highly recommend the cappuccino!"
-                                </i>
+                                    sip a delight. Highly recommend the cappuccino!"
+                                </blockquote>
                             </li>
                             <li class="testimonial-item swiper-slide">
-                                <img src="./images/user-2.jpg" alt="User 2" class="user-image">
+                                <img src="./images/user-2.jpg" alt="Tanvir" class="user-image">
                                 <h3 class="name">Tanvir</h3>
-                                <i class="feedback">
-                                    "The coffee here is absolutely amazing! The rich aroma and bold flavors make every
-                                    sip
-                                    a delight. Highly recommend the cappuccino!"
-                                </i>
+                                <blockquote class="feedback">
+                                    "I visit this coffee shop every morning before work. The atmosphere is perfect and the staff is always friendly!"
+                                </blockquote>
                             </li>
                             <li class="testimonial-item swiper-slide">
-                                <img src="./images/user-3.jpg" alt="User 3" class="user-image">
+                                <img src="./images/user-3.jpg" alt="Asad" class="user-image">
                                 <h3 class="name">Asad</h3>
-                                <i class="feedback">
-                                    "The coffee here is absolutely amazing! The rich aroma and bold flavors make every
-                                    sip
-                                    a delight. Highly recommend the cappuccino!"
-                                </i>
+                                <blockquote class="feedback">
+                                    "Best cold brew in town! I've tried many places but keep coming back here for their unique blends."
+                                </blockquote>
                             </li>
                             <li class="testimonial-item swiper-slide">
-                                <img src="./images/user-4.jpg" alt="user 4" class="user-image">
+                                <img src="./images/user-4.jpg" alt="Sathi" class="user-image">
                                 <h3 class="name">Sathi</h3>
-                                <i class="feedback">
-                                    "The coffee here is absolutely amazing! The rich aroma and bold flavors make every
-                                    sip
-                                    a delight. Highly recommend the cappuccino!"
-                                </i>
+                                <blockquote class="feedback">
+                                    "The perfect spot for studying or working. Great coffee, comfortable seating, and free WiFi!"
+                                </blockquote>
                             </li>
                             <li class="testimonial-item swiper-slide">
-                                <img src="./images/user-5.jpg" alt="User 5" class="user-image">
+                                <img src="./images/user-5.jpg" alt="Lelin" class="user-image">
                                 <h3 class="name">Lelin</h3>
-                                <i class="feedback">
-                                    "The coffee here is absolutely amazing! The rich aroma and bold flavors make every
-                                    sip
-                                    a delight. Highly recommend the cappuccino!"
-                                </i>
+                                <blockquote class="feedback">
+                                    "Their seasonal specials are always creative and delicious. A true coffee lover's paradise!"
+                                </blockquote>
                             </li>
                         </ul>
                         <div class="swiper-pagination"></div>
@@ -214,39 +203,112 @@
         <!-- Testimonials Section Ends Here -->
 
         <!-- Gallery Section Starts Here -->
-        <section class="gallery-section">
+        <section class="gallery-section" id="gallery">
             <h2 class="section-title">Gallery</h2>
             <div class="section-content">
                 <ul class="gallery-list">
                     <li class="gallery-item">
-                        <img src="./images/gallery-1.jpg" alt="Gallery 1" class="gallery-image">
+                        <img src="./images/gallery-1.jpg" alt="Coffee preparation" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/gallery-2.jpg" alt="Gallery 2" class="gallery-image">
+                        <img src="./images/gallery-2.jpg" alt="Coffee beans" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/gallery-3.jpg" alt="Gallery 3" class="gallery-image">
+                        <img src="./images/gallery-3.jpg" alt="Coffee shop ambiance" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/gallery-4.jpg" alt="Gallery 4" class="gallery-image">
+                        <img src="./images/gallery-4.jpg" alt="Coffee art" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/gallery-5.jpg" alt="Gallery 5" class="gallery-image">
+                        <img src="./images/gallery-5.jpg" alt="Coffee with pastry" class="gallery-image">
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/gallery-6.jpg" alt="Gallery 6" class="gallery-image">
+                        <img src="./images/gallery-6.jpg" alt="Coffee bar" class="gallery-image">
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Gallery Section Ends Here -->
 
+        <!-- Contact Section Starts Here -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>34 Test Drive, AZ, USA</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@coffee.com</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 10:00AM - 7:00PM</p>
+                    </li>
+                    
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday: 11:00AM - 5:00PM</p>
+                    </li>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Closed</p>
+                    </li>
+                    
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.coffee.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input textarea" required rows="5"></textarea>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Contact Section Ends Here -->
+        
+        <!-- Footer Section Starts Here -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text"><i class="fa fa-copyright" aria-hidden="true"></i> 2025 Coffee Shop</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+               <p class="policy-text">
+                <a href="#" class="policy-link">Privacy policy</a>
+                <span class="separator">·</span>
+                <a href="#" class="policy-link">Refund policy</a>
+               </p>
+            </div>
+        </footer>
+        <!-- Footer Section Ends Here -->
     </main>
-    <!-- link for swiper script -->
+    
+    <!-- Link for swiper script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <!-- link for custom script -->
+    <!-- Link for custom script -->
     <script src="scripts.js"></script>
-
 </body>
-
 </html>
